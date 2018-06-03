@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c779fec1-cd01-4ec4-96ed-b81cdfd82137" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/installer_schedule_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/installer_schedule_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/seller_schedule_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/seller_schedule_controller.rb" />
-    </list>
+    <list default="true" id="c779fec1-cd01-4ec4-96ed-b81cdfd82137" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="installer_schedule_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/installer_schedule_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+            <state relative-caret-position="319">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -308,12 +304,12 @@
       <workItem from="1524517842183" duration="3617000" />
       <workItem from="1526505371934" duration="5189000" />
       <workItem from="1526736496546" duration="477000" />
-      <workItem from="1527105991561" duration="29000" />
+      <workItem from="1527105991561" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17294000" />
+    <option name="totallyTimeSpent" value="17357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="136" width="1582" height="823" extended-state="0" />
@@ -704,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/installer_schedule_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+        <state relative-caret-position="319">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
