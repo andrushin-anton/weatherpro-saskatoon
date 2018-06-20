@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c779fec1-cd01-4ec4-96ed-b81cdfd82137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/installers/available.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/appointments_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/appointments_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/installers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/installers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/appointment.rb" afterPath="$PROJECT_DIR$/app/models/appointment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/installer_schedule.rb" afterPath="$PROJECT_DIR$/app/models/installer_schedule.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appointments/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/appointments/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/appointments/show.html.erb" afterPath="$PROJECT_DIR$/app/views/appointments/show.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -84,7 +78,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/appointments/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/sessions.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -97,14 +90,15 @@
         <option value="$PROJECT_DIR$/config/initializers/s3_direct_upload.rb" />
         <option value="$PROJECT_DIR$/app/controllers/seller_schedule_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/installer_schedule_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/appointments_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/installers_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/appointment.rb" />
         <option value="$PROJECT_DIR$/app/models/installer_schedule.rb" />
-        <option value="$PROJECT_DIR$/app/views/appointments/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/installers/available.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/appointments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/appointments/show.html.erb" />
       </list>
     </option>
   </component>
@@ -151,7 +145,14 @@
               <item name="saskatoon" type="b2602c69:ProjectViewProjectNode" />
               <item name="saskatoon" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saskatoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saskatoon" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="appointments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,12 +301,12 @@
       <workItem from="1526505371934" duration="5189000" />
       <workItem from="1526736496546" duration="477000" />
       <workItem from="1527105991561" duration="92000" />
-      <workItem from="1529535940033" duration="345000" />
+      <workItem from="1529535940033" duration="516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17702000" />
+    <option name="totallyTimeSpent" value="17873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="136" width="1582" height="823" extended-state="0" />
@@ -509,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/appointments/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="209" column="28" lean-forward="true" selection-start-line="209" selection-start-column="28" selection-end-line="209" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -660,14 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2264">
-          <caret line="208" column="1" lean-forward="false" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/installer_schedule.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -684,17 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/appointments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8775">
-          <caret line="585" column="9" lean-forward="false" selection-start-line="585" selection-start-column="9" selection-end-line="585" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#16;n#!!top" expanded="true" />
-            <marker date="1529536215000" expanded="true" signature="31236:31272" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/installers/available.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -708,6 +683,38 @@
         <state relative-caret-position="645">
           <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1671">
+          <caret line="199" column="1" lean-forward="false" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/appointments/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="501" column="14" lean-forward="false" selection-start-line="501" selection-start-column="14" selection-end-line="501" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/appointments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8670">
+          <caret line="578" column="9" lean-forward="false" selection-start-line="578" selection-start-column="9" selection-end-line="578" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#16;n#!!top" expanded="true" />
+            <marker date="1529536412000" expanded="true" signature="30883:30919" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
